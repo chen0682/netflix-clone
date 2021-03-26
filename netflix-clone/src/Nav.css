@@ -8,11 +8,17 @@
   z-index: 1;
 
   transition-timing-function: ease-in;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.nav_black {
+.nav__black {
   background-color: rgba(0, 0, 0, 0.349);
+}
+
+.nav__note {
+  color: white;
+  align-self: center;
+  margin-left: 1rem;
 }
 
 .nav__logo {

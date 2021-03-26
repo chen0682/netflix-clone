@@ -15,15 +15,19 @@ function Nav() {
     };
   }, []);
   return (
-    <div className={`nav ${show && "nav_black"}`}>
+    <div className={`nav ${show && "nav__black"}`}>
       <img
         className="nav__logo"
         src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
         alt="Logo"
       />
+      <span className="nav__note">
+        This is a Netflix clone website built with React.js by Fang Chen
+      </span>
       <img
         className="nav__avatar"
         src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+        alt="avatar"
       />
     </div>
   );
